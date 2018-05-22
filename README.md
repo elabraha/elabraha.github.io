@@ -1,4 +1,4 @@
 # elabraha.github.io
 My landing page/website?
 
-forked from [flexdinesh](../flexdinesh/dev-landing-page/master/LICENSE)
+forked from [flexdinesh](https://github.com/flexdinesh/dev-landing-page)
