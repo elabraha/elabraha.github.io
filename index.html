@@ -50,31 +50,32 @@
 	</main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.6/dist/typeit.min.js">
-	var instance = new TypeIt('.type-it', {
-  		cursor: true,
-  		lifeLike: true
-  		speed: 100,
-  		deleteSpeed: 100
-	});
-	instance.type("instance.type("1337 HaXOR")")
-	instance.pause(3000)
-	instance.delete()
-	instance.type("1337 HaXOR")
-	instance.pause(3000)
-	instance.delete()
-	instance.type("Technomagician")
-	instance.pause(3000)
-	instance.delete()
-	instance.type("Director of Inhuman Resources")
-	instance.pause(5000)
-	instance.delete()
-	instance.type("Foo Master")
-	instance.pause(3000)
-	instance.delete()
-	instance.type("Robot Whisperer")
-	instance.pause(3000)
-	instance.delete()
-	instance.type("Software Developer")
-	instance.freeze();
+	new TypeIt('.type-it', {
+	  cursor: true,
+	  lifeLike: true,
+	  speed: 100,
+	  autoStart: true,
+	  deleteSpeed: 100
+	})
+	.type("1337 HaXOR")
+	.pause(3000)
+	.delete()
+	.type("1337 HaXOR")
+	.pause(3000)
+	.delete()
+	.type("Technomagician")
+	.pause(3000)
+	.delete()
+	.type("Director of Inhuman Resources")
+	.pause(5000)
+	.delete()
+	.type("Foo Master")
+	.pause(3000)
+	.delete()
+	.type("Robot Whisperer")
+	.pause(3000)
+	.delete()
+	.type("Software Developer")
+	.freeze();
 </script>
 </html>
