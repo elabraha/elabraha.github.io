@@ -8,6 +8,7 @@
 	<title>Devine Developer</title>
 
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<script src="https://cdn.jsdelivr.net/npm/typeit@5.10.6/dist/typeit.min.js"></script>
 
 	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -50,13 +51,14 @@
     	</div>
 	</main>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/typeit@5.10.6/dist/typeit.min.js">
-	new TypeIt('#typeitoutmofo', {
+<script type="text/javascript">
+	var instanceof = new TypeIt('#typeitoutmofo', {
 		strings: "Type it out MoFo!",
 		autoStart: true,
 		lifeLike: true,
 		cursor: true,
 		speed: 100
 	});
+	window.onload = instanceof.type();
 </script>
 </html>
