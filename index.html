@@ -53,32 +53,33 @@
 </body>
 <script>
 	new TypeIt('.tagline', {
-		  cursor: true,
 		  lifeLike: true,
 		  speed: 100,
 		  autoStart: true,
-		  deleteSpeed: 100
-	})
-	.type("1337 HaXOR")
-	.pause(3000)
-	.delete()
-	.type("1337 HaXOR")
-	.pause(3000)
-	.delete()
-	.type("Technomagician")
-	.pause(3000)
-	.delete()
-	.type("Director of Inhuman Resources")
-	.pause(5000)
-	.delete()
-	.type("Foo Master")
-	.pause(3000)
-	.delete()
-	.type("Robot Whisperer")
-	.pause(3000)
-	.delete()
-	.type("Software Developer")
-	.options()
-	.freeze({cursor: false});
+		  deleteSpeed: 100,
+		  html: true
+		})
+		.empty()
+		.type("UMICH Alum")
+		.pause(3000)
+		.delete()
+		.type("1337 HaXOR")
+		.pause(3000)
+		.delete()
+		.type("Technomagician")
+		.pause(3000)
+		.delete()
+		.type("Director of Inhuman Resources")
+		.pause(5000)
+		.delete()
+		.type("Foo Master")
+		.pause(3000)
+		.delete()
+		.type("Robot Whisperer")
+		.pause(3000)
+		.delete()
+		.type("Software Developer")
+		.pause(100)
+		.options({cursor: false});
 </script>
 </html>
