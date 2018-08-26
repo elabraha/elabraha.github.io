@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Eliana Abraham | Devine Developer</title>
+	<title>Devine Developer</title>
 
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
@@ -26,8 +26,7 @@
 <body>
 	<main>
 		<div class="intro">Hello, I'm Eliana!</div>
-		<div class="tagline"> UMICH Alum | 1337 HaXOR | Technomagician | Director of Inhuman Resources | Foo Master | Robot Whisperer | Software Developer</div>
-		<p id="type" class="typepwriter"></p>
+		<div class="tagline"><span class="type-it"></span></div>
 		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
 		<div class="icons-social">
 			<a target="_blank" href="https://github.com/elabraha"><i class="fab fa-github"></i></a>
@@ -47,10 +46,38 @@
 <!-- 			<a href="https://dev.to/elabraha"><svg class="devto">
 				<use xlink:href="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"></use>
 			</svg></a> -->
-    </div>
+    	</div>
 	</main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.6/dist/typeit.min.js">
-	
+	var instance = new TypeIt('.type-it', {
+  		cursor: true,
+  		lifeLike: true
+  		speed: 100,
+  		deleteSpeed: 100,
+  		loop: true
+	});
+	instance.reset()
+	instance.type("instance.type("1337 HaXOR")")
+	instance.pause(3000)
+	instance.delete()
+	instance.type("1337 HaXOR")
+	instance.pause(3000)
+	instance.delete()
+	instance.type("Technomagician")
+	instance.pause(3000)
+	instance.delete()
+	instance.type("Director of Inhuman Resources")
+	instance.pause(5000)
+	instance.delete()
+	instance.type("Foo Master")
+	instance.pause(3000)
+	instance.delete()
+	instance.type("Robot Whisperer")
+	instance.pause(3000)
+	instance.delete()
+	instance.type("Software Developer")
+	instance.pause(30000)
+	instance.delete();
 </script>
 </html>
