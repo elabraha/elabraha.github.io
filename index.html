@@ -28,7 +28,7 @@
 	<main>
 		<div class="intro">Hello, I'm Eliana!</div>
 		<div class="tagline"></div>
-		<p id="typeitoutmofo"></p>
+		<!-- <p id="typeitoutmofo"></p> -->
 		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
 		<div class="icons-social">
 			<a target="_blank" href="https://github.com/elabraha"><i class="fab fa-github"></i></a>
@@ -51,14 +51,34 @@
     	</div>
 	</main>
 </body>
-<script type="text/javascript">
-	var instanceof = new TypeIt('#typeitoutmofo', {
-		strings: "Type it out MoFo!",
-		autoStart: true,
-		lifeLike: true,
-		cursor: true,
-		speed: 100
-	});
-	window.onload = instanceof.type();
+<script>
+	new TypeIt('.tagline', {
+		  cursor: true,
+		  lifeLike: true,
+		  speed: 100,
+		  autoStart: true,
+		  deleteSpeed: 100
+	})
+	.type("1337 HaXOR")
+	.pause(3000)
+	.delete()
+	.type("1337 HaXOR")
+	.pause(3000)
+	.delete()
+	.type("Technomagician")
+	.pause(3000)
+	.delete()
+	.type("Director of Inhuman Resources")
+	.pause(5000)
+	.delete()
+	.type("Foo Master")
+	.pause(3000)
+	.delete()
+	.type("Robot Whisperer")
+	.pause(3000)
+	.delete()
+	.type("Software Developer")
+	.options()
+	.freeze({cursor: false});
 </script>
 </html>
