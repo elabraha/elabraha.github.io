@@ -55,24 +55,28 @@
 	new TypeIt('.tagline', {
 		  lifeLike: true,
 		  speed: 100,
+		  deleteSpeed: 30,
 		  autoStart: true,
 		  html: true
 		})
 		.empty()
-		.options({speed: 170})
-		.type("UMICH Alum")
+		.options({speed: 150})
+		.type("UMICH")
+		.options({speed: 80})
+		.type("Alum")
 		.pause(1000)
-		.options({deleteSpeed: 30})
 		.delete()
 		.options({speed: 200})
-		.type("1337 HaXOR")
+		.type("1337")
+		.options({speed: 150})
+		.type("HaXOR")
 		.pause(1000)
 		.delete()
-		.options({speed: 150})
+		.options({speed: 200})
 		.type("Technomagician")
 		.pause(1500)
 		.delete()
-		.options({speed: 100})
+		.options({speed: 125})
 		.type("Director of Inhuman Resources")
 		.pause(2000)
 		.delete()
@@ -80,10 +84,11 @@
 		.type("Foo Master")
 		.pause(1000)
 		.delete()
-		.options({speed: 150})
+		.options({speed: 120})
 		.type("Robot Whisperer")
 		.pause(1500)
 		.delete()
+		.options({speed: 150})
 		.type("Software Engineer");
 </script>
 </html>
