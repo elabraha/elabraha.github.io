@@ -32,14 +32,6 @@ html {
 	font-size: 3em;
 }
 
-.icons-social a:hover {
-	color: #3fb4fb;
-}
-
-.icons-social a:hover svg path{
-	fill: #3fb4fb;
-}
-
 /* Custom Styles */
 
 main {

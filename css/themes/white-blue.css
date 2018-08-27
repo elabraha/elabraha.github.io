@@ -12,3 +12,19 @@ main {
 .icons-social a svg path{
 	fill: #0277BD;
 }
+
+#recurse-scout-eliana svg g{
+	fill: #0277BD;
+}
+
+#recurse-scout-eliana icons-social.a:hover svg g{
+	fill: #3fb4fb;
+}
+
+.icons-social a:hover {
+	color: #3fb4fb;
+}
+
+.icons-social a:hover svg path{
+	fill: #3fb4fb;
+}
