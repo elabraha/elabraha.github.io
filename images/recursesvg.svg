@@ -1,6 +1,3 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 width="50" height="80" viewBox="0 0 201.000000 251.000000"
 preserveAspectRatio="xMidYMid meet">
@@ -8,7 +5,7 @@ preserveAspectRatio="xMidYMid meet">
 Recurse Logo
 </metadata>
 <g transform="translate(0.000000,251.000000) scale(0.100000,-0.100000)"
-fill="#0000FF" stroke="none">
+fill="#000000" stroke="none">
 <path d="M0 1675 l0 -835 335 0 335 0 0 -85 0 -85 -250 0 -250 0 0 -85 0 -85
 -85 0 -85 0 0 -250 0 -250 1005 0 1005 0 0 250 0 250 -85 0 -85 0 0 85 0 85
 -250 0 -250 0 0 85 0 85 335 0 335 0 0 835 0 835 -1005 0 -1005 0 0 -835z
