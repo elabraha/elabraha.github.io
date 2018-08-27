@@ -28,11 +28,3 @@ main {
 .icons-social a:hover svg path{
 	fill: #3fb4fb;
 }
-
-#devto-logo svg path{
-	fill: currentColor;
-}
-
-#devto-logo a:hover svg path{
-	fill: #3fb4fb;
-}
