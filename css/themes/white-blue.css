@@ -5,9 +5,9 @@ main {
 	color: #0277BD;
 }
 
-.icons-social a {
+/*.icons-social a {
 	color: #0277BD;
-}
+}*/
 
 .icons-social a svg path{
 	fill: #0277BD;
@@ -30,7 +30,7 @@ main {
 }
 
 #devto-logo svg path{
-	fill: #0277BD;
+	fill: currentColor;
 }
 
 #devto-logo a:hover svg path{
