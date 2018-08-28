@@ -74,3 +74,8 @@ main > .tagline {
 .icons-social i {
 	padding: 10px;
 }
+
+#recurse-scout-eliana a {
+	width: 50px;
+	height: 65px;
+}
