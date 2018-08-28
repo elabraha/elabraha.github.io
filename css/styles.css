@@ -76,11 +76,6 @@ main > .tagline {
 }
 
 #recurse-scout-eliana svg {
-	height: 80px;
-	width: 50px;
-}
-
-.inline-svg {
 	height: auto;
-	width: auto;
+	width: auto
 }
