@@ -4,9 +4,19 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
 	html {
 		font-size: 14px;
+	}
+	a#recurse-scout-eliana {
+		width: 15px;
+		height: 20px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	html {
+		font-size: 16px;
 	}
 	a#recurse-scout-eliana {
 		width: 25px;
@@ -14,9 +24,19 @@ html {
 	}
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 992px) {
 	html {
-		font-size: 16px;
+		font-size: 18px;
+	}
+	a#recurse-scout-eliana {
+		width: 40px;
+		height: 53px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	html {
+		font-size: 20px;
 	}
 	a#recurse-scout-eliana {
 		width: 50px;
@@ -24,19 +44,19 @@ html {
 	}
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 2000px) {
 	html {
-		font-size: 18px;
+		font-size: 26px;
 	}
-	a#recurse-scout-eliana{
+	a#recurse-scout-eliana {
 		width: 70px;
 		height: 91px;
 	}
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 2600px) {
 	html {
-		font-size: 20px;
+		font-size: 26px;
 	}
 	a#recurse-scout-eliana {
 		width: 95px;
@@ -76,6 +96,6 @@ main > .tagline {
 }
 
 a#recurse-scout-eliana {
-	width: 50px;
-	height: 65px;
+	width: auto;
+	height: auto;
 }
