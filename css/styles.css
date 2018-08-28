@@ -8,11 +8,19 @@ html {
 	html {
 		font-size: 14px;
 	}
+	#recurse-scout-eliana svg {
+		width: 25;
+		height: 33;
+	}
 }
 
 @media (min-width: 768px) {
 	html {
 		font-size: 16px;
+	}
+	#recurse-scout-eliana svg {
+		width: 50;
+		height: 65;
 	}
 }
 
@@ -20,11 +28,19 @@ html {
 	html {
 		font-size: 18px;
 	}
+	#recurse-scout-eliana svg {
+		width: 70;
+		height: 91;
+	}
 }
 
 @media (min-width: 1200px) {
 	html {
 		font-size: 20px;
+	}
+	#recurse-scout-eliana svg {
+		width: 95;
+		height: 125;
 	}
 }
 
