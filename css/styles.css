@@ -39,6 +39,7 @@ html {
 	a#recurse-scout-eliana {
 		width: 40px;
 		height: 53px;
+		margin: -7px;
 	}
 	a#all-other-svgs {
 		width: 40px;
@@ -114,4 +115,10 @@ main > .tagline {
 a#recurse-scout-eliana {
 	width: auto;
 	height: auto;
+}
+
+.social-icons a.devto svg {
+    margin-bottom: -.25rem;
+    width: 2.7rem;
+    height: 2.7rem;
 }
