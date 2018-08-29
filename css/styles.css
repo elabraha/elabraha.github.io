@@ -80,10 +80,18 @@ main > .tagline {
     margin-right: 7px;
 }
 
-.icons-social a#all-other-svgs  svg {
+.icons-social a#dev-to  svg {
     margin-bottom: -.25rem;
     width: 2.7rem;
     height: 2.7rem;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.icons-social a#itch-io svg {
+    margin-bottom: -.25rem;
+    width: 2.7rem;
+    height: 2.7rem;
+    margin-left: 8px;
+    margin-right: 8px;
 }
