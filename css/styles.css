@@ -87,3 +87,11 @@ main > .tagline {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.icons-social a#all-other-svgs  svg {
+    margin-bottom: -.25rem;
+    width: 2.7rem;
+    height: 2.7rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
