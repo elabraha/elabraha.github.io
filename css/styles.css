@@ -72,20 +72,12 @@ main > .tagline {
 	padding: 10px;
 }
 
-.icons-social a.devto svg {
-    margin-bottom: -.25rem;
-    width: 2.7rem;
-    height: 2.7rem;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .icons-social a#recurse-scout-eliana  svg {
     margin-bottom: -.25rem;
     width: 2.7rem;
     height: 2.7rem;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
 .icons-social a#all-other-svgs  svg {
