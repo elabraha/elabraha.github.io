@@ -76,8 +76,8 @@ main > .tagline {
     margin-bottom: -.60rem;
     width: 2.4rem;
     height: 3.42rem;
-    margin-left: 7px;
-    margin-right: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .icons-social a#dev-to  svg {
