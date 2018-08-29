@@ -8,27 +8,11 @@ html {
 	html {
 		font-size: 14px;
 	}
-	a#recurse-scout-eliana {
-		width: 30px;
-		height: 40px;
-	}
-	a#all-other-svgs{
-		width: 30px;
-		height: 40px;
-	}
 }
 
 @media screen and (min-width: 768px) {
 	html {
 		font-size: 16px;
-	}
-	a#recurse-scout-eliana {
-		width: 35px;
-		height: 46px;
-	}
-	a#all-other-svgs {
-		width: 35px;
-		height: 46px;
 	}
 }
 
@@ -36,38 +20,18 @@ html {
 	html {
 		font-size: 18px;
 	}
-	a#recurse-scout-eliana {
-		width: 40px;
-		height: 53px;
-		margin: -7px;
-	}
-	a#all-other-svgs {
-		width: 40px;
-		height: 53px;
-	}
+	
 }
 
 @media screen and (min-width: 1200px) {
 	html {
 		font-size: 20px;
 	}
-	a#recurse-scout-eliana {
-		width: 50px;
-		height: 65px;
-	}
-	a#all-other-svgs{
-		width: 50px;
-		height: 65px;
-	}
 }
 
-/*@media screen and (min-width: 2000px) {
+@media screen and (min-width: 2000px) {
 	html {
 		font-size: 26px;
-	}
-	a#recurse-scout-eliana {
-		width: 70px;
-		height: 91px;
 	}
 }
 
@@ -75,11 +39,7 @@ html {
 	html {
 		font-size: 26px;
 	}
-	a#recurse-scout-eliana {
-		width: 80px;
-		height: 105px;
-	}
-}*/
+}
 
 .icons-social i {
 	font-size: 3em;
@@ -112,13 +72,18 @@ main > .tagline {
 	padding: 10px;
 }
 
-a#recurse-scout-eliana {
-	width: auto;
-	height: auto;
-}
-
 .icons-social a.devto svg {
     margin-bottom: -.25rem;
     width: 2.7rem;
     height: 2.7rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icons-social a#recurse-scout-eliana  svg {
+    margin-bottom: -.25rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
