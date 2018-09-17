@@ -95,3 +95,19 @@ main > .tagline {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.icons-social a#glitch-me svg {
+    margin-bottom: -.4rem;
+    width: 3.7rem;
+    height: 3.2rem;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+.icons-social a#mail-to svg {
+    margin-bottom: -.3rem;
+    width: 3.5rem;
+    height: 3.0rem;
+    margin-left: 5px;
+    margin-right: 10px;
+}
